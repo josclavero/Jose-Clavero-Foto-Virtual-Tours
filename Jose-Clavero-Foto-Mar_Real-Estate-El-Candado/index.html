@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jose Clavero Foto - Visita Virtual 360 - Mar Real Estate - Chalet El Candado/</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-escalera-mirador-superior">
+        <li class="text">Escalera Mirador Superior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-saln">
+        <li class="text">Salón</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-pasillo">
+        <li class="text">Pasillo</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-dormitorio-1">
+        <li class="text">Dormitorio 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-comedor">
+        <li class="text">Comedor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-dormitorio-2">
+        <li class="text">Dormitorio 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-bao">
+        <li class="text">Baño</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-habitacin-3">
+        <li class="text">Habitación 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-dormitorio-principal">
+        <li class="text">Dormitorio Principal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-bao-dormitorio-principal">
+        <li class="text">Baño Dormitorio Principal</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-pasillo-piscina">
+        <li class="text">Pasillo Piscina</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-biblioteca">
+        <li class="text">Biblioteca</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-sala-recreativa">
+        <li class="text">Sala Recreativa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-pasillo-piso-bajo">
+        <li class="text">Pasillo Piso Bajo</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-entrada-planta-baja">
+        <li class="text">Entrada Planta Baja</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-salida-a-terraza-baja">
+        <li class="text">Salida a Terraza Baja</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-terraza-baja">
+        <li class="text">Terraza Baja</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-final-terraza-baja">
+        <li class="text">Final Terraza Baja</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-terraza-juegos">
+        <li class="text">Terraza Juegos</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-terraza-lateral-bajo">
+        <li class="text">Terraza Lateral Bajo</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-piscina">
+        <li class="text">Piscina</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-terraza-lounge">
+        <li class="text">Terraza Lounge</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-pasillo-terraza-superior">
+        <li class="text">Pasillo Terraza Superior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-terraza-barbacoa">
+        <li class="text">Terraza Barbacoa</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-mirador-superior">
+        <li class="text">Mirador Superior</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-cocina">
+        <li class="text">Cocina</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
+

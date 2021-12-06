@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HELLOSUN - Casa Las Lilas 14</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+
+
+
+<img id="imgDisp" src="img/ 0-r0010709_main_gate.png"></img>
+
+
+
+
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-r0010709_main_gate">
+        <li class="text">R0010709_Main_gate</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-r0010710-main_entrance">
+        <li class="text">R0010710-Main_entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-r0010711_bathroom">
+        <li class="text">R0010711_Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-r0010713_entrance_hall">
+        <li class="text">R0010713_Entrance_Hall</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-r0010712_kitchen">
+        <li class="text">R0010712_Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-r0010714_entrance_hall2">
+        <li class="text">R0010714_Entrance_hall2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-r0010715_living_room">
+        <li class="text">R0010715_Living_room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-r0010716_terrace1">
+        <li class="text">R0010716_Terrace1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-r0010717_entrance_hall3">
+        <li class="text">R0010717_Entrance_hall3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-r0010718_entrance_hall4">
+        <li class="text">R0010718_Entrance_hall4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-r0010719_bathrom">
+        <li class="text">R0010719_Bathrom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-r0010720_entrance">
+        <li class="text">R0010720_Entrance</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-r0010722_bedroom">
+        <li class="text">R0010722_Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-r0010724_bathroom">
+        <li class="text">R0010724_Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-r0010726_terrace">
+        <li class="text">R0010726_Terrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-r0010727_terrace">
+        <li class="text">R0010727_Terrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-r0010728_bedroom">
+        <li class="text">R0010728_Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-r0010729_bedroom">
+        <li class="text">R0010729_Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-r0010730_terrace">
+        <li class="text">R0010730_Terrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-r0010731_bedroom">
+        <li class="text">R0010731_Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-r0010732_bedroom">
+        <li class="text">R0010732_Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-r0010733_bathroom">
+        <li class="text">R0010733_Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-r0010734_terrace">
+        <li class="text">R0010734_Terrace</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-r0010735_terrace">
+        <li class="text">R0010735_Terrace</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
