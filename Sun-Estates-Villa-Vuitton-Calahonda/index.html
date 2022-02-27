@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sun-Estates - Villa Vuitton Calahonda</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<img id="imgDisp" src="img/ 0-villa-entrance-r0011685.png"></img>
+
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-villa-entrance-r0011685">
+        <li class="text">Villa-Entrance-R0011685</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-hall-r0011687">
+        <li class="text">Hall-R0011687</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-top-hallway-r0011688">
+        <li class="text">Top-Hallway-R0011688</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-bedroom-r0011689">
+        <li class="text">Bedroom-R0011689</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-bedroom-r0011691">
+        <li class="text">Bedroom-R0011691</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-bathroom-r0011690">
+        <li class="text">Bathroom-R0011690</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-villa-side-r0011686">
+        <li class="text">Villa-Side-R0011686</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-living-room-stairs-r0011692">
+        <li class="text">Living-Room-Stairs-R0011692</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-living-room-r0011693">
+        <li class="text">Living-Room-R0011693</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-kitchen-r0011694">
+        <li class="text">Kitchen-R0011694</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-terrace-r0011695">
+        <li class="text">Terrace-R0011695</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-halfway-r0011703">
+        <li class="text">Halfway-R0011703</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-swimming-pool-r0011697">
+        <li class="text">Swimming-Pool-R0011697</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-villa-side-r0011699">
+        <li class="text">Villa-Side-R0011699</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-villa-side-r0011701">
+        <li class="text">Villa-Side-R0011701</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-bathroom-r0011702">
+        <li class="text">Bathroom-R0011702</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-bedroom-r0011704">
+        <li class="text">Bedroom-R0011704</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-bedroom-r0011705">
+        <li class="text">Bedroom-R0011705</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-cellar-stairs-r0011706">
+        <li class="text">Cellar-Stairs-R0011706</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-cellar-r0011708">
+        <li class="text">Cellar-R0011708</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-cellar-r0011709">
+        <li class="text">Cellar-R0011709</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-bathroom-r0011710">
+        <li class="text">Bathroom-R0011710</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
