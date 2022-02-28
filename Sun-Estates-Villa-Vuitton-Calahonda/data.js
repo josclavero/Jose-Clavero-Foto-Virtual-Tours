@@ -224,14 +224,14 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": -1.7710053008136448,
+        "pitch": -0.00714218107476583,
+        "fov": 1.5915440444340792
       },
       "linkHotspots": [
         {
-          "yaw": -2.8519201341130245,
-          "pitch": 0.018076899005569302,
+          "yaw": -2.7320150189229047,
+          "pitch": 0.06451631947701841,
           "rotation": 0,
           "target": "2-top-hallway-r0011688"
         }
@@ -262,11 +262,18 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 2.285980210955465,
+        "pitch": 0.04478716908960578,
+        "fov": 1.5915440444340792
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 3.1300778345743066,
+          "pitch": 0.07493934340011421,
+          "rotation": 0,
+          "target": "2-top-hallway-r0011688"
+        }
+      ],
       "infoHotspots": []
     },
     {
@@ -367,8 +374,8 @@ var APP_DATA = {
           "target": "10-terrace-r0011695"
         },
         {
-          "yaw": 1.870481419385552,
-          "pitch": -0.10550856682362308,
+          "yaw": 1.5702510964057952,
+          "pitch": -0.38131953440391086,
           "rotation": 0,
           "target": "1-hall-r0011687"
         }
@@ -1005,9 +1012,9 @@ var APP_DATA = {
       ],
       "faceSize": 1344,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
+        "yaw": 1.6327961803616358,
+        "pitch": 0.030391293310792378,
+        "fov": 1.5915440444340792
       },
       "linkHotspots": [
         {
@@ -1076,11 +1083,11 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "Sun-Estates - Villa Vuitton Calahonda",
   "settings": {
     "mouseViewMode": "drag",
-    "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "autorotateEnabled": false,
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
