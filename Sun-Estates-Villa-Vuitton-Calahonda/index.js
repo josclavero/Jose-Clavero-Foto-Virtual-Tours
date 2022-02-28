@@ -189,12 +189,6 @@
     startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
-    changeMap(scene); 
-  }
-
-    function changeMap(imgName) {
-    var mapImage = document.getElementById('imgDisp');
-    mapImage.src = "img/" + imgName.data.id + ".png";
   }
 
   function updateSceneName(scene) {
