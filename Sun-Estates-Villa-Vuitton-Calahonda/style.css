@@ -828,3 +828,13 @@ body.view-control-buttons .viewControlButton {
 .viewControlButton-6 {
   margin-left: 105px;
 }
+
+
+img#imgDisp {position: absolute; right:5px; top:40px}
+
+.mobile img#imgDisp {
+  width: 200px;
+  position: absolute;
+  right: 15px;
+  top: 55px;
+}
